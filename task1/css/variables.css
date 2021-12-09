@@ -1,0 +1,12 @@
+:root {
+  --background-color-red: red;
+  --background-color-blue: blue;
+  --background-color-green: green;
+  --background-color-gray: gray;
+  --background-color-yellow: yellow;
+  --background-color-brown: brown;
+  --background-color-turquoise: turquoise;
+  --background-color-white: white;
+
+  --border-color-white: white;
+}

@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+/*utils*/
+
+/*Small devices (landscape phones, 375px and up)*/
+@media (min-width: 375px) {
+  .main{
+    width: 370px;
+    height: 300px;
+  }
+
+  .up-left_turquoise{
+    width: 49%;
+  }
+}
+
+/*Small devices (landscape phones, 425px and up)*/
+@media (min-width: 425px) {
+  .main{
+    width: 425px;
+    height: 400px;
+  }
+
+  .up-right_red{
+    width: 49%;
+  }
+
+  .up-right_grey {
+    width: 19.5%;
+  }
+
+  .left-down_green{
+    border: var(--border-color-white) 2px solid;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .main{
+    width: 760px;
+    height: 400px;
+  }
+
+  .down-right_yellow{
+    border: var(--border-color-white) 2px solid;
+  }
+}
+
+/*Large devices (desktops, 1024px and up)*/
+@media (min-width: 1024px) {
+  .main{
+    width: 1020px;
+    height: 400px;
+  }
+
+  .up-left_turquoise{
+    width: 49.5%;
+  }
+}
+
+/*Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1440px) {
+  .main{
+    width: 1400px;
+    height: 500px;
+  }
+
+  .down-left{
+    width: 65.5%;
+  }
+
+  .up-right_red{
+    width: 49.5%;
+  }
+}
